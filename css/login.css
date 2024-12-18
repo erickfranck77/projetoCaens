@@ -1,0 +1,65 @@
+.blocoOpcao {
+    text-align: center;
+    border-radius: 10px;
+    padding: 1em 6em 1em;
+    background-color: var(--backgroud-blocoLogin);
+    margin: 10px;
+    width: 40%;
+    
+}
+
+#loginItens {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#loginItens2 {
+    
+    justify-content: center;
+    align-content: center;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    color: var(--backgroud-padrao);
+}
+
+#itensLogin2 {
+    justify-content: center;
+    margin: 2em;
+    width: 60%;
+}
+#tituloTipoLogin {
+    margin-left: 3em;
+    color: var(--texto-padrao);
+}
+.blocoOpcao:hover  {
+    background-color: var(--backgroud-blocoItens);
+    color: var(--backgroud-padrao);
+}
+
+#logoCaens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+
+
+
+#loginBlocoPrincipal {
+    border-radius: 10px;
+    padding: 1em;
+    background-color: var(--backgroud-blocoItens);
+}
+
+.componenteBlocoPrincipalLogin {
+    margin-top: 10px;
+}
+
+.inputBlocoPrincipalLogin {
+    width: 100%;
+    background-color: var(--backgroud-padrao);
+    border-radius: 5px;
+    padding: 10px;
+}
