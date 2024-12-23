@@ -1,7 +1,6 @@
 document.getElementById('recoverPasswordLink').addEventListener('click', function (e) {
     e.preventDefault(); // Impede o comportamento padrão do link
 
-    // Cria um modal para entrada de e-mail
     const modal = document.createElement('div');
     modal.setAttribute('id', 'recoverPasswordModal');
     modal.style.position = 'fixed';
@@ -14,7 +13,7 @@ document.getElementById('recoverPasswordLink').addEventListener('click', functio
     modal.style.borderRadius = '8px';
     modal.style.zIndex = '1000';
 
-    // Conteúdo do modal
+
     modal.innerHTML = `
         <h2 style="text-align: center; color: #142912;">Recuperar Senha</h2>
         <div class="form-group">
